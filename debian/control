@@ -1,0 +1,37 @@
+Source: sunblocker
+Section: science
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends:
+ debhelper (>=9),
+ dh-python,
+ python-all (>= 2.6.6-3~),
+ python-setuptools,
+ python-numpy,
+ python-casacore,
+ python-matplotlib,
+ python-scipy,
+ python-astropy,
+ python-ephem
+Standards-Version: 3.9.7
+Homepage: https://github.com/gigjozsa/sunblocker
+X-Python-Version: >= 2.6
+Vcs-Git: https://github.com/kernsuite-debian/sunblocker
+Vcs-Browser: https://github.com/kernsuite-debian/sunblocker
+
+Package: sunblocker
+Architecture: all
+Depends:
+ ${python:Depends},
+ ${misc:Depends},
+ python-numpy,
+ python-casacore,
+ python-matplotlib,
+ python-scipy,
+ python-astropy,
+ python-ephem
+Description: remove solar-like RFI from interferometric data
+ A Python method to remove solar-like RFI from interferometric data.
+ .
+ This package installs the library for Python 2.
+

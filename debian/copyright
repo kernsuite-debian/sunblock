@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sunblock
+Source: https://github.com/gigjozsa/sunblocker
+
+Files: *
+Copyright: 2017  Gyula Istvan Geza Jozsa, Paolo Serra, Kshitij Thorat, Sphesihle Makhatini, NRF (Square Kilometre Array
+South Africa) - All Rights Reserved
+License: GPL-2.0
+
+Files: debian/*
+Copyright: 2017 Gijs Molenaar <gijs@pythonic.nl>
+License: MIT
